@@ -1,0 +1,468 @@
+body{
+    font-family: 'HK grotesk';
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time img{
+   width: 27px;;
+   height: 27px;
+}
+
+.time-date{
+    margin: 0%;
+    color: #003B5C;
+    font-size: 12px;
+    font-family: 'HK Grotesk';
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.342857px;
+    text-align: left;
+}
+
+.time-city{
+    margin: 0%;
+    color: #9E9896;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.342857px;
+    text-align: left;
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: #003B5C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.342857px;
+    text-align: left;
+    margin-right: 38px;
+}
+
+.nav-menu img{
+    width: 17px;
+    height: 17px;
+}
+
+.nav-logo{
+    margin-left: 175px;
+}
+
+.line{
+    border: 1px solid #F6F3EE;
+    margin: 22px 0px 15px 0px;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.title-choice{
+    text-decoration: none;
+    color: #003B5C;
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.presentation{
+    margin-bottom: 230px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 30px;
+}
+
+.first-item{
+    display: flex;
+}
+
+.car-info{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    width: 520px;
+    margin: 0px 117px 0px 117px;
+    top: 90%;
+}
+
+.car-text{
+    display: flex;
+    justify-content: center;
+}
+
+.title-info{
+    color: #003B5C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.detail-info{
+    color: #9E9896;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.item-title{
+    color: #003B5C;
+    font-family: "Libre Baskerville";
+    width: 90%;
+    margin: 0px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.4px;
+    text-align: center; 
+}
+
+.item-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5D534F;
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    text-align: center; 
+}
+
+.continued{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: #E74832;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+}
+
+.second-item{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.drink{
+    height: 335px;
+}
+
+.drink img{
+    max-height: 100%;
+}
+
+.drink-info{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    width: 480px;
+    margin: 0px 10px 0px 20px;
+    top: 62%;
+}
+
+.drink-text{
+    display: flex;
+    justify-content: center;
+}
+
+.line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.line2-short{
+    border: 1px solid #E5DBD1;
+    width: 42%;
+    margin: 0px 1% 0px 1%;
+}
+
+.title-text{
+    color: #003B5C;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 0px 0px;
+    border: 1px solid #E5DBD1;
+    box-shadow: 2px 2px #E5DBD1;
+    font-weight: 500;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.list-articles{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-text-title{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.title-articles-text{
+    color: #5D534F;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12.03px;
+    margin-left: 40px;
+    margin-top: 20px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+}
+
+.continued-title-articles{
+    margin-left: 500px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.empty{
+    color: white;
+    font-size: 12px;
+}
+
+.three-items{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    max-height: 100%;
+    gap: 10px;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-text{
+    display: flex;
+    text-align: center;
+}
+
+.article-title{
+    color: #003B5C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.details-article{
+    color: #9E9896;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center; 
+}
+
+.article-text-info{
+    color: #003B5C;
+    font-family: "Libre Baskerville";
+    width: 406px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    margin: 0%;
+}
+
+.newsletter{
+    color: white;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 54px;
+    height: 665px;
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.newsletter-block{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.newsletter h1:first-of-type{
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.newsletter h1:last-of-type{
+    font-size: 52px;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.newsletter-info{
+    font-size: 22px;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+}
+
+.button-newsletter{
+    text-transform: uppercase;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight:600;
+    font-size: 15.031px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.499742px;
+    color: #003B5C;
+    background-color: white;
+    border: 1px solid #E5DBD1;
+    padding: 15px 56px;
+    box-shadow: 5px 5px #E74832
+}
+
+footer{
+    width: 100%;
+    background: rgba(231, 72, 50, 1);
+    height: 390px;
+    color: white;
+}
+
+.footer-block{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+
+.footer-info{
+    display: grid;
+}
+
+.title-footer{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.55px;
+}
+
+.text-footer{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-footer{
+    color: white;
+    background: #E74832;
+    width: 179px;
+    display: flex;
+    text-decoration: none;
+    transition: 0.5s;
+    box-shadow: 4px 4px 0 white;
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    justify-content: center;
+}
+
+.fb-icon{
+    width: 12px;
+    height: 22px;
+}
+
+.twt-icon{
+    width: 23px;
+    height: 17px;
+}
+
+.insta-icon{
+    width: 17.3px;
+    height: 17.3px;
+}
+
+.hr{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.mentions{
+    color: white;
+    float: left;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.sb{
+    color: white;
+    float: right;
+    margin-right: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
